@@ -1,0 +1,607 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.page{
+    width: 100%;
+    height: 3722px;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 38.5px;
+    background-color: #000;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100px;
+    height: 38.5px;
+    padding: 0 8px;
+    background-color: rgb(51, 150, 122);
+    font-weight: 500;
+}
+
+.logo p{
+    display: block;
+}
+
+.logo:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+.home_icon{
+    color: #fff;
+    padding-right: 14px;
+}
+
+
+.text_logo{
+    color: #fff;
+}
+
+.menu{
+    position: absolute;
+    display: inline-block;
+    display: flex;
+    width: 500px;
+    height: 38.5px;
+    top: 0;
+    left: 100px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.menu li{
+    list-style: none;
+    line-height: 38.5px;
+    padding: 0 16px;
+    
+}
+
+/* css hover vào menu */
+.menu li:hover{
+    background-color: #fff;
+}
+.menu li:hover a{
+    background-color: #fff;
+    color: #000;
+}
+/* end hover */
+
+/* more */
+.more{
+    display: none;
+    min-width: 160px;
+    top: 100%;
+    left: 281px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.menu .more li:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+.menu > li:hover .more{
+    display: block;
+} 
+/* end more */
+.header .search_header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 38.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header .search_icon{
+    color: #fff;
+    font-weight: 600;
+}
+
+.header .search_header:hover{
+    background-color: rgb(51, 150, 122);
+}
+
+/* slide1 */
+
+.slide1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 600px;
+}
+
+.img_header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    min-height: 350px;
+    max-height: 600px;
+}
+
+.text_slide1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    width: 217px;
+    height: 52px;
+    cursor: pointer;
+}
+
+.content_slide1{
+    font-size: 24px !important;
+    text-align: center;
+    line-height: 52px;
+}
+
+.text_slide1:hover{
+    background-color: rgb(51, 150, 122);
+}
+
+/* slide2 */
+.slide2{
+    position: absolute;
+    width: 100%;
+    height: 461.425px;
+    padding: 64px 16px;
+    top: 600px;
+}
+
+.name_team{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.text_team{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.row_4img{
+    top: 1061.425px;
+    width: 100%;
+    height: 225.925px;
+    padding-top: 18px;
+    display: flex;
+}
+
+.quater{
+    width: 24.99999%;
+    text-align: center;
+}
+
+.img4{
+    border-radius: 50%;
+    width: 45%;
+}
+
+.img4:hover{
+    opacity: 0.6;
+}
+
+.name_4img{
+    margin: 10px 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.text_4img{
+    margin: 15px 0;
+    font-family: Verdana,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.slide3{
+    position: absolute;
+    top: 1061.425px;
+    width: 100%;
+    height: 597.5px;
+    color: #fff;
+    background-color: #333333;
+    padding: 64px 8px;
+    display: flex;
+}
+
+.part1{
+    background-color: #333333 !important;
+}
+
+.title_part1{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.text_part1{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.four_part{
+    height: 398.75px;
+    width: 24.99999%;
+    margin: 0 8px;
+    
+    background-color: #fff;
+}
+
+.box_content_slide3{
+    padding: 0.01em 16px;
+    color: #000;
+    background-color: #fff;
+}
+
+.title_box_slide3{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+h4{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.content_box_slide3{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.on_board{
+    position: absolute;
+    width: 51.65px;
+    height: 52px;
+    top: 570px;
+    left: 24px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: rgb(51, 150, 122);
+    text-decoration: none;
+    z-index: 2;
+}
+
+.on_board:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+.daucong{
+    text-align: center;
+    line-height: 52px;
+    font-weight: 600;
+    font-size: 30px;
+}
+/* slide4 */
+.slide4{
+    position: absolute;
+    top: 1658.925px;
+    width: 100%;
+    height: 812.4px;
+    padding: 64px 8px;
+    text-align: center;
+}
+
+.slide4 h2{
+    margin: 10px 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.slide4 > p{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.thirt_slide4{
+    width: 33.33333%;
+    height: 538.4px;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    text-align: center;
+    float: left;
+}
+
+.ul_slide4{
+    list-style: none;
+    border: 1px solid #ccc;
+}
+
+.title_slide4{
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+}
+
+.text_li_title{
+    margin: 24px 0;
+    font-family: Verdana,sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.items_slide4{
+    padding: 16px 16px;
+    border-bottom: 1px solid #ddd;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+span{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    opacity: 0.6;
+}
+
+.footer_slide4{
+    padding: 24px 16px;
+    background-color: #f0f0f0;
+}
+
+.but_signup{
+    padding: 12px 24px;
+    background-color: rgb(51, 150, 122);
+    color: #fff;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    border: 0;
+    cursor: pointer;
+}
+
+.but_signup:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+.no2{
+    background-color: #666666;
+}
+
+.ul_slide4:hover{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.slide5{
+    position: absolute;
+    top: 2471.325px;
+    width: 100%;
+    height: 447.9px;
+    padding: 64px 16px;
+    background-color: #f0f0f0;
+}
+
+.col_left{
+    float: left;
+    width: 41.66666%;
+    height: 291px;
+}
+
+.box_contact{
+    padding: 16px 0;
+}
+
+.contact_slide5{
+    border-bottom: 6px solid #ccc;
+    border-color: rgb(51, 150, 122);
+    font-size: 24px;
+    color: #000;
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+    opacity: 1 !important;
+}
+
+.col_left > h3{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    color: #000;
+}
+
+.col_left > p{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.icon_slide5{
+    font-size: 24px;
+    color: rgb(51, 150, 122);
+}
+
+.col_right{
+    width: 58.33333%;
+    height: 319.9px;
+    float: left;
+}
+
+.form_slide5{
+    padding: 16px 16px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.section{
+    font-size: 15px;
+    margin: 16px 0;
+    height: 61.8px;
+}
+
+.input_slide5{
+    display: block;
+    padding: 8px 8px;
+    height: 39.3px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font: inherit;
+}
+
+label{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.check{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+}
+
+.submit{
+    float: right;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+}
+
+.contain_img{
+    position: absolute;
+    width: 100%;
+    top: 2919.225px;
+    filter: grayscale(50%);
+}
+
+.footer_page{
+    position: absolute;
+    padding: 32px 16px;
+    background-color: #000;
+    width: 100%;
+    height: 261.5px;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.last_icon{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: rgb(51, 150, 122);
+    font-size: 18px !important;
+    cursor: pointer;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.last_icon:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+.h4_end{
+    margin: 10px 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+
+.last_p{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.begin{
+    position: absolute;
+    text-decoration: none;
+    height: 36px;
+    width: 36px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    right: 50px;
+
+}
+
+.begin > i{
+    font-weight: 600;
+}
+
+.begin:hover{
+    background-color: rgb(51, 150, 122);
+    color: #fff;
+}
+
+.hover_top{
+    position: absolute;
+    display: none;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(51, 150, 122);
+    color: #fff;
+    left: -110px;
+    line-height: 30px;
+    font-family: Verdana,sans-serif;
+}
+
+.begin:hover .hover_top{
+    display: block;
+}
